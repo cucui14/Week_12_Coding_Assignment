@@ -1,0 +1,10 @@
+.week-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.current-user {
+    color: #069b06;
+    text-decoration: underline;
+}

@@ -1,0 +1,108 @@
+[
+ {
+  "username": "Angel",
+  "daysofweek": [
+   {
+    "day": "Monday",
+    "reminders": [
+     {
+      "reminder": "Morning run",
+      "id": 1
+     },
+     {
+      "reminder": "Have breakfast",
+      "id": 2
+     }
+    ]
+   },
+   {
+    "day": "Tuesday",
+    "reminders": [
+     {
+      "reminder": "Morning run",
+      "id": 1
+     },
+     {
+      "reminder": "Have breakfast",
+      "id": 2
+     }
+    ]
+   },
+   {
+    "day": "Wednesday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Thursday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Friday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Saturday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Sunday",
+    "reminders": [
+    ]
+   }
+  ],
+  "id": 1
+ },
+ {
+  "username": "Lizz",
+  "daysofweek": [
+   {
+    "day": "Monday",
+    "reminders": [
+     {
+      "reminder": "Morning run",
+      "id": 1
+     },
+     {
+      "reminder": "Make breakfast",
+      "id": 2
+     }
+    ]
+   },
+   {
+    "day": "Tuesday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Wednesday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Thursday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Friday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Saturday",
+    "reminders": [
+    ]
+   },
+   {
+    "day": "Sunday",
+    "reminders": [
+    ]
+   }
+  ],
+  "id": 2
+ }
+]
