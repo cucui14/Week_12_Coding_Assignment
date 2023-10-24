@@ -12,32 +12,64 @@
   </head>
   <body>
     <main class="container">
-      <div id="userCards" class="d-flex justify-content-center">
-        <!-- <div class="card m-2" style="width: 18rem">
-          <img
-            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2v8jGQFEHwDE0bEIm2Sofs-0n5RUWyiNtY_JQw46IozVB-YPU"
-            class="card-img-top"
-            alt="dog"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Angel</h5>
-            <button class="btn btn-primary">See Schedule</button>
+      <!-- Button trigger modal -->
+      <!-- <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#listModal"
+      >
+        Launch demo modal
+      </button> -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="listModal"
+        tabindex="-1"
+        aria-labelledby="listLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="listModalLabel"></h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
           </div>
-        </div> -->
+        </div>
       </div>
-      <div class="week-grid">
-        <!-- <div class="card m-2" style="width: 18rem">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Monday</h5>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-        </div> -->
+      <div class="input-group mb-3 mt-5">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Add a new user"
+          id="newUserInput"
+        />
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="newUserButton"
+        >
+          ADD
+        </button>
       </div>
+      <div id="users" class="d-flex flex-wrap justify-content-center"></div>
     </main>
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="./index.js"></script>
